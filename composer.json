@@ -1,0 +1,60 @@
+{
+	"name": "cakephp/cakephp",
+	"description": "The CakePHP framework",
+	"type": "library",
+	"keywords": ["framework"],
+	"homepage": "http://cakephp.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "CakePHP Community",
+			"homepage": "https://github.com/cakephp/cakephp/graphs/contributors"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/cakephp/cakephp/issues",
+		"forum": "http://stackoverflow.com/tags/cakephp",
+		"irc": "irc://irc.freenode.org/cakephp",
+		"source": "https://github.com/cakephp/cakephp"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"ext-mcrypt": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"cakephp/debug_kit" : "^2.2.0",
+		"cakephp/cakephp-codesniffer": "^1.0.0"
+	},
+	"name": "mjohnson/uploader",
+    "type": "cakephp-plugin",
+    "description": "File uploader and validation plugin for CakePHP.",
+    "keywords": ["cakephp", "uploader", "plugin", "file", "validation", "attachment"],
+    "homepage": "http://milesj.me/code/cakephp/uploader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miles Johnson",
+            "homepage": "http://milesj.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*",
+        "composer/installers": "*",
+        "mjohnson/transit": "~1.6"
+    },
+    "suggest": {
+        "ext-gd": "Enable the GD library for image transforming",
+        "ext-exif": "Extract exif data from images",
+        "aws/aws-sdk-php": "~2.7"
+    },
+    "support": {
+        "source": "https://github.com/milesj/uploader"
+    },
+	"bin": [
+		"lib/Cake/Console/cake"
+	]
+}
